@@ -1,0 +1,86 @@
+
+body {
+    margin: 0;
+    padding: 0;
+  }
+  #bg {
+    margin: 0;
+    padding: 0;
+    /* Set background image */
+    background-image: url('images.jpeg');
+    /* Set background size */
+    background-size: cover;
+    /* Set background repeat behavior */
+    background-repeat: no-repeat;
+    /* Center the background */
+    background-position: center;
+    /* Set full height */
+    height: 100vh;
+    /* Blur the background */
+    /*filter: blur(5px); /* Adjust the blur intensity as needed */
+  }
+  #text-container {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: rgb(0, 0, 0); /* Set the text color */
+    /* You can set a background color or use transparent */
+    background-color: rgba(255, 255, 255, 0.984); /* Adjust the background color and opacity */
+    padding: 20px;
+    z-index: 2;
+  }
+  #text1 {
+    position: absolute;
+    top: 60%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: rgb(0, 0, 0); /* Set the text color */
+    /* You can set a background color or use transparent */
+    background-color: rgba(255, 255, 255, 0.984); /* Adjust the background color and opacity */
+    padding: 20px;
+    z-index: 2;
+  }
+  #text2 {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: rgb(0, 0, 0); /* Set the text color */
+    /* You can set a background color or use transparent */
+    background-color: rgba(255, 255, 255, 0.984); /* Adjust the background color and opacity */
+    padding: 20px;
+    z-index: 2;
+  }
+  #text3 {
+    position: absolute;
+    top: 60%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: rgb(0, 0, 0); /* Set the text color */
+    /* You can set a background color or use transparent */
+    background-color: rgba(255, 255, 255, 0.984); /* Adjust the background color and opacity */
+    padding: 20px;
+    z-index: 2;
+  }
+ 
+  a:link {
+    color: rgb(6, 219, 59);
+    text-decoration: none;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: rgb(81, 17, 91);
+    text-decoration: none;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: rgb(222, 31, 31);
+    text-decoration: none;
+  }

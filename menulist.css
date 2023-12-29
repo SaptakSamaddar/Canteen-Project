@@ -1,0 +1,20 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgba(228, 120, 163, 0.984);
+  }
+  .menu-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+
+  /* Style for the buttons */
+  .quantity-btn {
+    cursor: pointer;
+    padding: 5px 10px;
+    border: none;
+    background-color: #ddd;
+    color: #333;
+    margin-left: 10px;
+  }
